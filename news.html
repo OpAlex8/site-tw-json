@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>News</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="meniu.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="meniu">
+        <a class="left" href="index.html">Home</a>
+        <a class="left" href="news.html">News</a>
+        <div class="dropdown">
+          <button class="dropbtn">Trenuri 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="t1.html">Bucuresti - Craiova</a>
+            <a href="t2.html">Craiova - Bucuresti</a>
+            <a href="t3.html">Bucuresti - Timisoara</a>
+            <a href="t4.html">Timisoara - Bucuresti</a>
+            <a href="t5.html">Craiova - Timisoara</a>
+            <a href="t6.html">Timisoara - Craiova</a>
+          </div>
+        </div> 
+        <a class="right" href="signup.html">Sign Up</a>
+        <a class="right" href="login.html">Login</a>
+      </div>
+
+<div>
+    <input type="text" class="form" name="name" id="formName" placeholder="Descrierea">
+    <input type="text" class="form" name="url" id="formUrl" placeholder="Image url">
+    <button type="button" class="btn" id="addButton">Add</button>
+    <button type="button" class="btn" id="updateButton" disabled>Update</button>
+</div>
+
+<div id="image-list" class="image-list"></div>
+<div class="slideshow" id="slideshow"></div>
+<script src="news_script.js"></script>
+
+<footer class="footer">
+    <p>Daca CFR-ul intarzie, noi ajungem mai devreme</p>
+    <p>Pentru mai multe intormatii: <a href="best@trains.com">best@trains.ro</a>.</p>
+  </footer>
+<a class = "jos">We have no 🍪 here :(</a>
+</body>
+</html>

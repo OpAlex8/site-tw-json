@@ -1,0 +1,49 @@
+:root {
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Open Sans', 'Lato';
+    color: var(black);
+}
+
+.btn {
+    background: var(black);
+    color: var(white);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+.form {
+    background: var(white);
+    color: var(black);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+.script-btn {
+    background: var(black);
+    color: var(white);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    margin: 3px;
+}
+
+.services-image {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-height: 300px;
+    box-shadow: var(--shadow);
+}
+
+.services-span {
+    font-size: 1.2rem;
+    margin-right: 25px;
+}
+
+
